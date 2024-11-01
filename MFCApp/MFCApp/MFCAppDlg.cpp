@@ -7,11 +7,12 @@
 #include "MFCApp.h"
 #include "MFCAppDlg.h"
 #include "afxdialogex.h"
+#include "CDiaImage.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
-
+#pragma comment(linker, "/entry:WinMainCRTStartup /subsystem:console")
 
 // 응용 프로그램 정보에 사용되는 CAboutDlg 대화 상자입니다.
 
@@ -52,6 +53,7 @@ END_MESSAGE_MAP()
 
 CMFCAppDlg::CMFCAppDlg(CWnd* pParent /*=nullptr*/)
 	: CDialogEx(IDD_MFCAPP_DIALOG, pParent)
+	, position(0,0,0,0)
 {
 	m_hIcon = AfxGetApp()->LoadIcon(IDR_MAINFRAME);
 }
@@ -59,12 +61,23 @@ CMFCAppDlg::CMFCAppDlg(CWnd* pParent /*=nullptr*/)
 void CMFCAppDlg::DoDataExchange(CDataExchange* pDX)
 {
 	CDialogEx::DoDataExchange(pDX);
+	DDX_Text(pDX, IDC_X1, position.nX1);
+	DDX_Text(pDX, IDC_X2, position.nX2);
+	DDX_Text(pDX, IDC_Y1, position.nY1);
+	DDX_Text(pDX, IDC_Y2, position.nY2);
 }
+
+
 
 BEGIN_MESSAGE_MAP(CMFCAppDlg, CDialogEx)
 	ON_WM_SYSCOMMAND()
 	ON_WM_PAINT()
 	ON_WM_QUERYDRAGICON()
+	ON_BN_CLICKED(IDC_Draw, &CMFCAppDlg::OnBnClickedDraw)
+	ON_BN_CLICKED(IDC_Action, &CMFCAppDlg::OnBnClickedAction)
+	ON_BN_CLICKED(IDC_Save, &CMFCAppDlg::OnBnClickedSave)
+	ON_BN_CLICKED(IDC_Load, &CMFCAppDlg::OnBnClickedLoad)
+	ON_WM_DESTROY()
 END_MESSAGE_MAP()
 
 
@@ -101,6 +114,9 @@ BOOL CMFCAppDlg::OnInitDialog()
 
 	// TODO: 여기에 추가 초기화 작업을 추가합니다.
 
+	dig = new CDiaImage(this);
+
+
 	return TRUE;  // 포커스를 컨트롤에 설정하지 않으면 TRUE를 반환합니다.
 }
 
@@ -116,11 +132,6 @@ void CMFCAppDlg::OnSysCommand(UINT nID, LPARAM lParam)
 		CDialogEx::OnSysCommand(nID, lParam);
 	}
 }
-
-// 대화 상자에 최소화 단추를 추가할 경우 아이콘을 그리려면
-//  아래 코드가 필요합니다.  문서/뷰 모델을 사용하는 MFC 애플리케이션의 경우에는
-//  프레임워크에서 이 작업을 자동으로 수행합니다.
-
 void CMFCAppDlg::OnPaint()
 {
 	if (IsIconic())
@@ -145,11 +156,52 @@ void CMFCAppDlg::OnPaint()
 		CDialogEx::OnPaint();
 	}
 }
-
-// 사용자가 최소화된 창을 끄는 동안에 커서가 표시되도록 시스템에서
-//  이 함수를 호출합니다.
 HCURSOR CMFCAppDlg::OnQueryDragIcon()
 {
 	return static_cast<HCURSOR>(m_hIcon);
 }
 
+
+
+void CMFCAppDlg::OnBnClickedDraw()
+{
+	UpdateData(true);
+
+
+
+	dig->Draw(position);
+}
+
+
+void CMFCAppDlg::OnBnClickedAction()
+{
+	for (int i = 0; i < 10; i++)
+	{
+		dig->Action(position);
+		Sleep(10);
+	}
+}
+
+
+void CMFCAppDlg::OnBnClickedSave()
+{
+	dig->Save();
+}
+
+
+void CMFCAppDlg::OnBnClickedLoad()
+{
+	dig->Load();
+}
+
+void CMFCAppDlg::MoveCircle()
+{
+
+}
+
+void CMFCAppDlg::OnDestroy()
+{
+	CDialogEx::OnDestroy();
+	delete dig;
+	dig = nullptr;
+}
