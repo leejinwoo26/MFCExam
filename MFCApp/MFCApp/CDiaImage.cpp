@@ -263,7 +263,6 @@ void CDiaImage::Draw(const Pos& position)
 	//현재 반지름
 	currentRadius = radius;
 	int nPitch = nImage->GetPitch();
-	std::cout << nPitch << std::endl;
 	unsigned char* fm = (unsigned char*)nImage->GetBits();
 
 	for (int y = position.nY1 -radius; y < position.nY1 +radius; y++)
