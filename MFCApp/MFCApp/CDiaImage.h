@@ -24,15 +24,22 @@ private:
 	CClientDC* nDc;
 	float currentRadius;
 public:
-	CImage* GetImage()  { return nImage; }
+	struct Vector2
+	{
+		float x;
+		float y;
+		Vector2(float x, float y) :
+			x(x), y(y) {}
+	};
+private:
 	void Clear();
-	void Save();
-	void Load();
-
+	void DrawCenter(CImage* image);
 	bool Check(float x, float y);
 	bool isInCircle(float x, float y, float centerX, float centerY, float radius);
 public:
 	void Draw(const Pos& position);
+	void Save();
+	void Load();
 	void Action(Pos& position);
 	afx_msg void OnDestroy();
 };

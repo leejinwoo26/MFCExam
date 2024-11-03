@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\jin\\Documents\\GitHub\\MFC\\MFCApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BB831AFF-B764-46C5-AE27-AA85DDA40885}|MFCApp\\MFCApp.vcxproj|C:\\Users\\jin\\Documents\\GitHub\\MFC\\MFCApp\\MFCApp\\MFCAppDlg.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BB831AFF-B764-46C5-AE27-AA85DDA40885}|MFCApp\\MFCApp.vcxproj|solutionrelative:MFCApp\\MFCAppDlg.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BB831AFF-B764-46C5-AE27-AA85DDA40885}|MFCApp\\MFCApp.vcxproj|C:\\Users\\jin\\Documents\\GitHub\\MFC\\MFCApp\\MFCApp\\CDiaImage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BB831AFF-B764-46C5-AE27-AA85DDA40885}|MFCApp\\MFCApp.vcxproj|solutionrelative:MFCApp\\CDiaImage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -15,15 +11,19 @@
       "RelativeMoniker": "D:0:0:{BB831AFF-B764-46C5-AE27-AA85DDA40885}|MFCApp\\MFCApp.vcxproj|solutionrelative:MFCApp\\CDiaImage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BB831AFF-B764-46C5-AE27-AA85DDA40885}|MFCApp\\MFCApp.vcxproj|C:\\Users\\jin\\Documents\\GitHub\\MFC\\MFCApp\\MFCApp\\MFCAppDlg.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BB831AFF-B764-46C5-AE27-AA85DDA40885}|MFCApp\\MFCApp.vcxproj|solutionrelative:MFCApp\\MFCAppDlg.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB831AFF-B764-46C5-AE27-AA85DDA40885}|MFCApp\\MFCApp.vcxproj|C:\\Users\\jin\\Documents\\GitHub\\MFC\\MFCApp\\MFCApp\\MFCAppDlg.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BB831AFF-B764-46C5-AE27-AA85DDA40885}|MFCApp\\MFCApp.vcxproj|solutionrelative:MFCApp\\MFCAppDlg.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BB831AFF-B764-46C5-AE27-AA85DDA40885}|MFCApp\\MFCApp.vcxproj|C:\\Users\\jin\\Documents\\GitHub\\MFC\\MFCApp\\MFCApp\\MFCApp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BB831AFF-B764-46C5-AE27-AA85DDA40885}|MFCApp\\MFCApp.vcxproj|solutionrelative:MFCApp\\MFCApp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB831AFF-B764-46C5-AE27-AA85DDA40885}|MFCApp\\MFCApp.vcxproj|C:\\PROGRAM FILES\\MICROSOFT VISUAL STUDIO\\2022\\COMMUNITY\\VC\\TOOLS\\MSVC\\14.39.33519\\ATLMFC\\INCLUDE\\ATLIMAGE.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB831AFF-B764-46C5-AE27-AA85DDA40885}|MFCApp\\MFCApp.vcxproj|C:\\Users\\jin\\Documents\\GitHub\\MFC\\MFCApp\\MFCApp\\MFCAppDlg.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BB831AFF-B764-46C5-AE27-AA85DDA40885}|MFCApp\\MFCApp.vcxproj|solutionrelative:MFCApp\\MFCAppDlg.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB831AFF-B764-46C5-AE27-AA85DDA40885}|MFCApp\\MFCApp.vcxproj|C:\\Users\\jin\\Documents\\GitHub\\MFC\\MFCApp\\MFCApp\\framework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -49,7 +49,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -65,8 +65,7 @@
               "RelativeToolTip": "MFCApp\\targetver.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-01T13:11:17.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T13:11:17.082Z"
             },
             {
               "$type": "Document",
@@ -78,8 +77,7 @@
               "RelativeToolTip": "MFCApp\\pch.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-01T13:03:54.304Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T13:03:54.304Z"
             },
             {
               "$type": "Document",
@@ -91,31 +89,30 @@
               "RelativeToolTip": "MFCApp\\MFCApp.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-01T12:59:13.582Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T12:59:13.582Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "atlimage.h",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\atlmfc\\include\\atlimage.h",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\atlmfc\\include\\atlimage.h",
               "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\atlmfc\\include\\atlimage.h",
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\atlmfc\\include\\atlimage.h",
-              "ViewState": "AQIAALoDAAAAAAAAAAAAwMcDAAAYAAAA",
+              "ViewState": "AQIAAGAFAAAAAAAAAAAqwG4FAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-01T12:13:52.231Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MFCApp.cpp",
               "DocumentMoniker": "C:\\Users\\jin\\Documents\\GitHub\\MFC\\MFCApp\\MFCApp\\MFCApp.cpp",
               "RelativeDocumentMoniker": "MFCApp\\MFCApp.cpp",
               "ToolTip": "C:\\Users\\jin\\Documents\\GitHub\\MFC\\MFCApp\\MFCApp\\MFCApp.cpp",
               "RelativeToolTip": "MFCApp\\MFCApp.cpp",
-              "ViewState": "AQIAADYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAMwEsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-01T12:12:21.39Z",
               "EditorCaption": ""
@@ -130,57 +127,56 @@
               "RelativeToolTip": "MFCApp\\framework.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-01T11:13:34.695Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T11:13:34.695Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CDiaImage.cpp",
               "DocumentMoniker": "C:\\Users\\jin\\Documents\\GitHub\\MFC\\MFCApp\\MFCApp\\CDiaImage.cpp",
               "RelativeDocumentMoniker": "MFCApp\\CDiaImage.cpp",
-              "ToolTip": "C:\\Users\\jin\\Documents\\GitHub\\MFC\\MFCApp\\MFCApp\\CDiaImage.cpp",
-              "RelativeToolTip": "MFCApp\\CDiaImage.cpp",
-              "ViewState": "AQIAADEAAAAAAAAAAAAUwHkAAAALAAAA",
+              "ToolTip": "C:\\Users\\jin\\Documents\\GitHub\\MFC\\MFCApp\\MFCApp\\CDiaImage.cpp*",
+              "RelativeToolTip": "MFCApp\\CDiaImage.cpp*",
+              "ViewState": "AQIAAKMAAAAAAAAAAAAqwLUAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-01T11:04:31.18Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "CDiaImage.h",
               "DocumentMoniker": "C:\\Users\\jin\\Documents\\GitHub\\MFC\\MFCApp\\MFCApp\\CDiaImage.h",
               "RelativeDocumentMoniker": "MFCApp\\CDiaImage.h",
               "ToolTip": "C:\\Users\\jin\\Documents\\GitHub\\MFC\\MFCApp\\MFCApp\\CDiaImage.h",
               "RelativeToolTip": "MFCApp\\CDiaImage.h",
-              "ViewState": "AQIAABYAAAAAAAAAAAAAwCMAAAALAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-01T11:04:18.722Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "MFCAppDlg.h",
               "DocumentMoniker": "C:\\Users\\jin\\Documents\\GitHub\\MFC\\MFCApp\\MFCApp\\MFCAppDlg.h",
               "RelativeDocumentMoniker": "MFCApp\\MFCAppDlg.h",
               "ToolTip": "C:\\Users\\jin\\Documents\\GitHub\\MFC\\MFCApp\\MFCApp\\MFCAppDlg.h",
               "RelativeToolTip": "MFCApp\\MFCAppDlg.h",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAwBMAAAAJAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAqwCMAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-01T10:41:41.723Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MFCAppDlg.cpp",
               "DocumentMoniker": "C:\\Users\\jin\\Documents\\GitHub\\MFC\\MFCApp\\MFCApp\\MFCAppDlg.cpp",
               "RelativeDocumentMoniker": "MFCApp\\MFCAppDlg.cpp",
-              "ToolTip": "C:\\Users\\jin\\Documents\\GitHub\\MFC\\MFCApp\\MFCApp\\MFCAppDlg.cpp*",
-              "RelativeToolTip": "MFCApp\\MFCAppDlg.cpp*",
-              "ViewState": "AQIAAKcAAAAAAAAAAAAAwLEAAAAXAAAA",
+              "ToolTip": "C:\\Users\\jin\\Documents\\GitHub\\MFC\\MFCApp\\MFCApp\\MFCAppDlg.cpp",
+              "RelativeToolTip": "MFCApp\\MFCAppDlg.cpp",
+              "ViewState": "AQIAAHEAAAAAAAAAAAAqwKkAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-01T10:41:40.446Z",
               "EditorCaption": ""

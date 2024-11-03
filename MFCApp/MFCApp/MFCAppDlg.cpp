@@ -167,19 +167,13 @@ void CMFCAppDlg::OnBnClickedDraw()
 {
 	UpdateData(true);
 
-
-
 	dig->Draw(position);
 }
 
 
 void CMFCAppDlg::OnBnClickedAction()
 {
-	for (int i = 0; i < 10; i++)
-	{
-		dig->Action(position);
-		Sleep(10);
-	}
+	MoveCircle();
 }
 
 
@@ -196,7 +190,11 @@ void CMFCAppDlg::OnBnClickedLoad()
 
 void CMFCAppDlg::MoveCircle()
 {
-
+	for (int i = 0; i < 10; i++)
+	{
+		dig->Action(position);
+		Sleep(10);
+	}
 }
 
 void CMFCAppDlg::OnDestroy()

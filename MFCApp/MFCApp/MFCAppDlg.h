@@ -32,8 +32,12 @@ private:
 
 private:
 	void MoveCircle();
-
-// 구현입니다.
+	afx_msg void OnBnClickedDraw();
+	afx_msg void OnBnClickedAction();
+	afx_msg void OnBnClickedSave();
+	afx_msg void OnBnClickedLoad();
+	Pos position;
+	afx_msg void OnDestroy();
 protected:
 	HICON m_hIcon;
 
@@ -43,12 +47,4 @@ protected:
 	afx_msg void OnPaint();
 	afx_msg HCURSOR OnQueryDragIcon();
 	DECLARE_MESSAGE_MAP()
-public:
-	
-	afx_msg void OnBnClickedDraw();
-	afx_msg void OnBnClickedAction();
-	afx_msg void OnBnClickedSave();
-	afx_msg void OnBnClickedLoad();
-	Pos position;
-	afx_msg void OnDestroy();
 };
