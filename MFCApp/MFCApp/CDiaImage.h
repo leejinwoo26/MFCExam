@@ -32,14 +32,14 @@ public:
 			x(x), y(y) {}
 	};
 private:
-	void Clear();
-	void DrawCenter(CImage* image);
-	bool Check(float x, float y);
-	bool isInCircle(float x, float y, float centerX, float centerY, float radius);
+	void Clear(); // 배경클리어
+	void DrawCenter(CImage* image);// 도트선 및 X모양선 그림
+	bool Check(float x, float y);//영역 검사
+	bool isInCircle(float x, float y, float centerX, float centerY, float radius);//원안에 있는지 검사
 public:
-	void Draw(const Pos& position);
-	void Save();
-	void Load();
-	void Action(Pos& position);
+	void Draw(const Pos& position); //Draw 버튼 클릭시
+	void Save();//Save 버튼 클릭시
+	void Load();//Load 버튼 클릭시
+	void Action(Pos& position);//Action 버튼 클릭시
 	afx_msg void OnDestroy();
 };

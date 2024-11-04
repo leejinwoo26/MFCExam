@@ -208,9 +208,12 @@ void CDiaImage::DrawCenter(CImage* image)
 }
 void CDiaImage::Load() 
 {
+	//처음 폴더 경로 
+	CString InitDir = L"images\\";
 	//파일 오픈 다이얼로그 생성
 	CFileDialog dlg(TRUE, _T("bmp"), NULL, OFN_FILEMUSTEXIST | OFN_HIDEREADONLY,
 		_T("Image Files (*.bmp; *.jpg;)|*.bmp;*.jpg;|All Files (*.*)|*.*||"));
+	dlg.m_ofn.lpstrInitialDir = InitDir;
 
 	//오픈 성공시
 	if (dlg.DoModal() == IDOK)
